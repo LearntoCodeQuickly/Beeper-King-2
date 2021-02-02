@@ -17,25 +17,29 @@
     </head>
 <body>
   <!-- Header and Nav Start-->
-  <header class="header">
-    <img src="https://learntocodequickly.com/wp-content/uploads/2021/02/beeperkingwide.png" class="logo" id="header-img">
-        <ul class="main-nav">
-          <li><a href="\#beepers">Beepers</a></li>
-          <li><a href="#">About</a></li>
-          <li><a href="#">Contact</a></li>
+  <div class="sticky">
+  <header class="header" id="header">
+    <img src="https://learntocodequickly.com/wp-content/uploads/2021/02/beeperkingwide.png" class="logo" id="header-img" alt="Beeper King Logo">
+    <nav id="nav-bar">   
+    <ul class="main-nav">
+          <li><a href="#beepers" class="nav-link">Beepers</a></li>
+          <li><a href="#about" class="nav-link">About</a></li>
+          <li><a href="#footer" class="nav-link">Contact</a></li>
           </ul>
+      </nav> 
   </header> 
+</div>
   <!-- Avatar Section Start-->
-  <div>
+  <div class="top-container">
     <div class="container">
       <img class="avatar" src="https://learntocodequickly.com/wp-content/uploads/2021/02/dennis-flat-update.png" alt="Illustration of Dennis Duffy"/>
-      <h1>You've probably seen my ads on the 7 Train Right?</h1>
+      <h1 id="title">You've probably seen my ads on the 7 Train Right?</h1>
       <div class="divider-custom divider-light">
         <div class="divider-custom-line"></div>
         <div class="divider-custom-icon"><i class="fas fa-pager"></i></div>
         <div class="divider-custom-line"></div>
       </div>
-      <h2 class="masthead-subheading font-weight-light mb-0">Ask me about my charitable work with a program that places troubled adults with child mentors.</h2>
+      <h2>Ask me about my charitable work with a program that places troubled adults with child mentors.</h2>
     </div>
   </div>
   <!-- Pricing Section Start-->
@@ -46,39 +50,104 @@
     <div class="columns">
       <ul class="price">
         <li class="header"><p class="list-header">The Prince 1000</p></li>
-        <li class="grey">$ 9.99 / year</li>
+        <li class="grey"><img class="beeper" src="https://learntocodequickly.com/wp-content/uploads/2021/02/prince1000.png" alt="Prince 1000 Beeper"></li>
         <li>Numeric</li>
         <li>Previously Enjoyed</li>
-        <li>It Smells, Sure, So What?</li>
-        <li>1GB Bandwidth</li>
-        <li class="grey"><a href="#" class="button">Sign Up</a></li>
+        <li>It Smells But it Works Great</li>
+        <li>6x AA Batteries</li>
+        <li class="grey"><a href="#" class="button">Buy It Already</a></li>
       </ul>
     </div>
     <div class="columns">
-      <ul class="price">
+      <ul class="price" id="price">
         <li class="header"><p class="list-header">The King 3000</p></li>
-        <li class="grey">$ 24.99 / year</li>
+        <li class="grey"><img class="beeper" src="https://learntocodequickly.com/wp-content/uploads/2021/02/king3000.png" alt="King 3000 Beeper"></li>
         <li>Numeric</li>
         <li>Hardly Used</li>
         <li>You'll Barely Notice the Smell</li>
-        <li>2GB Bandwidth</li>
-        <li class="grey"><a href="#" class="button">Sign Up</a></li>
+        <li>Rechargable Battery Not Included</li>
+        <li class="grey"><a href="#" class="button">Buy It Already</a></li>
       </ul>
     </div>
     <div class="columns">
       <ul class="price">
         <li class="header"><p class="list-header">The Duff 6900</p></li>
-        <li class="grey">$ 49.99 / year</li>
+        <li class="grey"><img class="beeper" src="https://learntocodequickly.com/wp-content/uploads/2021/02/duff6900.png" alt="Duff 6900 Beeper"></li>
         <li>Alpha-Numeric</li>
         <li>New to You</li>
         <li>Pre-Sprayed with Febreze</li>
-        <li>5GB Bandwidth</li>
-        <li class="grey"><a href="#" class="button">Sign Up</a></li>
+        <li>Rechargable Battery Included</li>
+        <li class="grey"><a href="#" class="button">Buy It Already</a></li>
       </ul>
     </div>
   </div>
+  <!-- Video Section Start-->
+<div class="white-bg">
+  <div class="container">
+    <h1>Proof Beepers are Still Relevant</h1>
+    <div class="divider-custom divider-light">
+      <div class="divider-custom-line"></div>
+      <div class="divider-custom-icon"><i class="fas fa-pager"></i></div>
+      <div class="divider-custom-line"></div>
+    </div>
+    <h2>If beepers are so "outdated", how do you explain this awesome video? Technology is cyclical dummies!</h2>
+    <section id="video-container">
+      <iframe
+        id="video"
+        height="500"
+        src="https://www.youtube-nocookie.com/embed/MPZ3cO2zOdQ?rel=0&amp;controls=0&amp;showinfo=0"
+        frameborder="0"
+        allowfullscreen
+      ></iframe>
+    </section>
+  </div>
+</div>
+ <!-- About Section Start-->    
+ <div id="about">
+  <div class="container">
+    <h1>About The Beeper King</h1>
+    <div class="divider-custom divider-light">
+      <div class="divider-custom-line"></div>
+      <div class="divider-custom-icon"><i class="fas fa-pager"></i></div>
+      <div class="divider-custom-line"></div>
+    </div>
+    <div class="row">
+      <div class="col-about-left">
+        <p class="lead">After failing the firefighter exam – which by the way is totally biased against the Irish – I started a number of successful businesses. Burning DVDs to LaserDiscs, a coffee vending machine, an even better "Baloon Boy" I'm working on with my buddy Jose: I'm basically the most succesful entrepeneur most people know.</p>
+      </div>
+      <div class="col-about-right">
+        <p class="lead">Liz Lemon never believed in me but I’m way more successful than that Jack guy now. After I wouldn't take Liz back I met my soulmate, now my wife, Meghan Duffy (hopefully no relation). Together we have an adopted son who is going to be an athlete, so I only have to save up for like one year of college which is sick.</p>
+      </div>
+    </div>
+  </div>
+</div>
+<!-- Email Start-->    
+<div class="white-bg">
+  <div class="container">
+    <h1>Gimme Your Emails</h1>
+    <div class="divider-custom divider-light">
+      <div class="divider-custom-line"></div>
+      <div class="divider-custom-icon"><i class="fas fa-pager"></i></div>
+      <div class="divider-custom-line"></div>
+    </div>
+    <h2>I know this guy Mark - I call him "Zucky Zucky" though - who pays me cash for any email addresses I give him, so cough'em up.</h2>
+    
+    <div class="row1">
+      <div class="email-form">
+        <form id="form" action="https://www.freecodecamp.com/email-submit">
+              <input id="email" name="email" type="email" placeholder="Put your email here..." required/>
+              <input id="submit" type="submit" value="Hurry Up and Click Already" class="button1"/>
+        </form>
+      </div>
+    </div>
+   </div>
+</div>
 
 
-        
+<div id="footer">
+
+</div>
+
+
 </body>
 </html>
